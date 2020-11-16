@@ -30,10 +30,12 @@
         android:ems="10"
         android:hint="كلمة المرور"
         android:inputType="textPassword"
+        android:textDirection="rtl"
         app:layout_constraintBottom_toTopOf="@+id/btnlogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lo_Email" />
+        app:layout_constraintTop_toBottomOf="@+id/lo_Email"
+        android:gravity="right"/>
 
     <Button
         android:id="@+id/btnlogin"
@@ -64,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="27dp"
-        android:text="@string/createNew"
+        android:text="إنشاء حساب جديد؟"
         app:layout_constraintBottom_toTopOf="@+id/progressBar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

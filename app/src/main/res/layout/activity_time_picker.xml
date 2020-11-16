@@ -73,7 +73,7 @@
                 android:textColor="@color/colorWeakBlack"
                 />
 
-            <com.example.project.view.TimeBoxView
+            <com.example.schedule.view.TimeBoxView
                 android:id="@+id/time_box"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
